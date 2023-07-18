@@ -1,0 +1,42 @@
+@media screen and (min-width: 1200px) {
+	.contacts {
+		background: linear-gradient(
+			180deg,
+			rgba(0, 0, 0, 0) 23.5%,
+			rgba(132, 161, 120, 1) 23.5%
+		);
+		padding-top: 100px;
+		padding-bottom: 100px;
+	}
+	.contacts-list-item {
+		width: 368px;
+	}
+	.wrapper-text-contacts {
+		padding: 4px 14px;
+	}
+	.wrapper-text-week {
+		margin-bottom: 12px;
+	}
+	.place-text {
+		font-size: 16px;
+		line-height: 1.87;
+	}
+	.address {
+		font-size: 16px;
+		line-height: 1.81;
+	}
+	.working-days-text,
+	.working-time-text {
+		font-size: 16px;
+		line-height: 1.87;
+	}
+	.contacts-list-tel {
+		font-size: 16px;
+	}
+	.contacts-list-mail {
+		font-size: 16px;
+	}
+	.btn-contacts-list {
+		margin-top: 60px;
+	}
+}

@@ -1,0 +1,130 @@
+@media screen and (min-width: 1199px) {
+	.hero-header {
+		padding-top: 18px;
+	}
+
+	.header-content-container {
+		width: 100%;
+		height: 65px;
+		position: fixed;
+		background-color: rgb(132, 162, 120, 0.8);
+		align-items: center;
+		top: 8px;
+		left: 0;
+		z-index: 200;
+	}
+	.logo-img {
+		width: 60px;
+		height: 65px;
+	}
+	.header-content {
+		position: fixed;
+		align-items: center;
+		width: 1168px;
+		height: 65px;
+		left: 50%;
+		top: 8px;
+		transform: translateX(-50%);
+		display: flex;
+	}
+	.container {
+		max-width: 1200px;
+		padding-left: 16px;
+		padding-right: 16px;
+	}
+	.menu-hamburger,
+	.close-menu {
+		display: none;
+	}
+	.nav-list {
+		display: flex;
+		margin-right: 28px;
+	}
+	.navigation {
+		display: flex;
+		margin-right: 205px;
+	}
+	.header-content {
+		margin-bottom: 45px;
+	}
+	.nav-link {
+		display: block;
+		line-height: 1.25;
+		padding-top: 13px;
+		padding-bottom: 13px;
+		color: var(--text-color-light);
+	}
+	.nav-link:hover {
+		color: var(--default-color);
+	}
+	.nav-link:focus {
+		color: var(--hover-color);
+	}
+	.nav-link:disabled {
+		color: var(--disabled-color);
+	}
+	.nav-item:not(:last-child) {
+		margin-right: 28px;
+	}
+	.number {
+		font-size: 46px;
+		line-height: 1.2;
+	}
+	.hero-amount {
+		font-size: 14px;
+		line-height: 1.21;
+		letter-spacing: 0.04em;
+	}
+	.hero-title {
+		font-size: 38px;
+		line-height: 1.26;
+		letter-spacing: 0.04em;
+		width: 367px;
+		margin-bottom: 40px;
+	}
+	.hero-title-content {
+		margin-top: 118px;
+		margin-bottom: 55px;
+	}
+	.hero-lots-of-ice-cream {
+		width: 255px;
+		height: 255px;
+		z-index: 100;
+		margin-right: 16px;
+		margin-bottom: 65px;
+	}
+	.hero-info {
+		font-weight: 600;
+		font-size: 14px;
+		line-height: 1.21;
+	}
+.block{
+		bottom: 32px;
+}
+
+	.products-button {
+		display: block;
+		padding: 12px 34px;
+		border-radius: 10px;
+		margin-right: 34px;
+		line-height: 1.28;
+	}
+	.hero-dotted {
+		position: absolute;
+		height: 383px;
+		bottom: 0;
+		left: 0;
+	}
+	.hero-ice-cream {
+		position: absolute;
+		bottom: 0;
+		right: 92px;
+	}
+	
+	.holder {
+			bottom: 103px;
+	left: 271px;
+	width: 200px;
+	}
+
+}

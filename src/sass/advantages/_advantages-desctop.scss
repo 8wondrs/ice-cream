@@ -1,0 +1,21 @@
+@media screen and (min-width: 1200px) {
+	.advantages {
+		padding-bottom: 60px;
+	}
+	.advantages-item {
+		display: flex;
+	}
+	.advantages-digital {
+		margin-bottom: 12px;
+		margin-top: 40px;
+		font-size: 58px;
+	}
+	.advantages-text {
+		width: 368px;
+		text-align: center;
+		margin-right: 16px;
+		margin-left: 16px;
+		font-size: 16px;
+		font-weight: 400;
+	}
+}

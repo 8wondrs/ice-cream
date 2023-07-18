@@ -1,0 +1,49 @@
+@import './common';
+@import './global';
+@import './vars';
+
+@import './hero-header/hero-header-global';
+@import './hero-header/hero-header-mobile';
+@import './hero-header/hero-header-tablet';
+@import './hero-header/hero-header-desctop';
+
+@import './products/products-global';
+@import './products/products-mobile';
+@import './products/products-tablet';
+@import './products/products-desctop';
+
+@import './about/about-global';
+@import './about/about-mobile';
+@import './about/about-tablet';
+@import './about/about-desctop';
+
+@import './advantages/advantages-global';
+@import './advantages/advantages-mobile';
+@import './advantages/advantages-tablet';
+@import './advantages/advantages-desctop';
+
+@import './gallery/gallery-global';
+@import './gallery/gallery-mobile';
+@import './gallery/gallery-tablet';
+@import './gallery/gallery-desctop';
+
+@import './customer-reviews/customer-reviews-global';
+@import './customer-reviews/customer-reviews-mobile';
+@import './customer-reviews/customer-reviews-tablet';
+@import './customer-reviews/customer-reviews-desctop';
+
+@import './contacts/contacts-global';
+@import './contacts/contacts-mobile';
+@import './contacts/contacts-tablet';
+@import './contacts/contacts-desctop';
+
+@import './footer/footer-global';
+@import './footer/footer-mobile';
+@import './footer/footer-tablet';
+@import './footer/footer-desctop';
+
+@import './modal/buy-now-modal';
+@import './modal/locations-modal';
+@import './modal/about-modal';
+@import './modal/ingredients-modal';
+@import './modal/franchise-modal';

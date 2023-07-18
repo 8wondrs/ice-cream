@@ -1,0 +1,202 @@
+<header class="hero-header">
+	<div class="container">
+		<div class="header-content-container">
+			<div class="header-content">
+				<a class="header-logo" href="#">
+					<img
+						class="logo-img"
+						src="./images/logo/logo.png"
+						alt="logo"
+						width="48"
+						height="44"
+					/>
+				</a>
+				<div class="menu-nav is-open" data-menu>
+					<div class="menu-container">
+						<nav class="navigation">
+							<ul class="nav-list list" data-menu-close>
+								<li class="nav-item">
+									<a href="#home" class="nav-link link">Home </a>
+								</li>
+								<li class="nav-item">
+									<a href="#sec1" class="nav-link link">How it’s made?</a>
+								</li>
+								<li class="nav-item">
+									<a href="#product" class="nav-link link">Our products</a>
+								</li>
+								<li class="nav-item">
+									<a href="#сontact" class="nav-link link">Contact</a>
+								</li>
+
+								<li class="nav-item close-menu button">
+									<svg class="close-white" width="20" height="20">
+										<use href="./images/sprite.svg#icon-close-white"></use>
+									</svg>
+								</li>
+							</ul>
+						</nav>
+						<button
+							class="js-open-modal button-buy-now"
+							data-modal="1"
+							aria-label="menu"
+						>
+							Buy now
+							<svg class="arrow-right" width="12" height="12">
+								<use href="./images/sprite.svg#icon-arrow-right"></use>
+							</svg>
+						</button>
+					</div>
+				</div>
+				<button class="menu button" data-menu-open aria-label="menu">
+					<svg class="menu-hamburger" width="32" height="32">
+						<use href="./images/sprite.svg#icon-menu-hamburger"></use>
+					</svg>
+				</button>
+				<a
+					href="#"
+					class="js-open-modal button-buy-now"
+					data-modal="1"
+					aria-label="open-menu"
+					>Buy now
+					<svg class="arrow-right" width="12" height="12">
+						<use href="./images/sprite.svg#icon-arrow-right"></use>
+					</svg>
+				</a>
+			</div>
+		</div>
+		<div class="hero">
+			<div class="hero-title-content">
+				<div class="hero-title-link">
+					<h1 id="Home" class="hero-title">
+						ice cream made with
+						<span class="passion">passion</span>
+					</h1>
+					<ul class="hero-info list">
+						<li>
+							<a href="#natural" class="products-button link" href="#product"
+								>Products</a
+							>
+						</li>
+						<li>
+							<a href="#love" class="products-recipe" href="#sec2"
+								>How it’s made?</a
+							>
+						</li>
+					</ul>
+				</div>
+				<div class="hero-amount">
+					<p class="cafes-amount"><span class="number">16</span>cafes</p>
+					<p class="trucks-amount"><span class="number">23</span>food trucks</p>
+				</div>
+			</div>
+			<picture>
+				<source
+					srcset="
+						/src/images/hero/webp/doted.webp    1x,
+						/src/images/hero/webp/doted@2x.webp 2x
+					"
+					media="(max-width:767px)"
+					width="330"
+					height="52"
+				/>
+				<source
+					srcset="
+						/src/images/hero/webp/doted-tablet.webp    1x,
+						/src/images/hero/webp/doted-tablet@2x.webp 2x
+					"
+					media="(max-width:1199px)"
+					width="768"
+					height="69"
+				/>
+				<source
+					srcset="
+						/src/images/hero/webp/doted-desctop.webp    1x,
+						/src/images/hero/webp/doted-desctop@2x.webp 2x
+					"
+					media="(min-width: 1200px)"
+				/>
+				<img
+					src="/src/images/hero/webp/doted-desctop.webp"
+					alt="dotted"
+					class="hero-dotted"
+					width="1200"
+					height="384"
+				/>
+			</picture>
+			<!-- ====== -->
+			<picture>
+				<source
+					srcset="
+						/src/images/hero/webp/480.webp    1x,
+						/src/images/hero/webp/480@2x.webp 2x
+					"
+					media="(max-width:767px)"
+					width="218"
+					height="267"
+				/>
+				<source
+					srcset="
+						/src/images/hero/webp/tablet.webp    1x,
+						/src/images/hero/webp/tablet@2x.webp 2x
+					"
+					media="(max-width:1199px)"
+					width="268"
+					height="329"
+				/>
+				<source
+					srcset="
+						/src/images/hero/webp/desktop.webp    1x,
+						/src/images/hero/webp/desktop@2x.webp 2x
+					"
+					media="(min-width: 1200px)"
+				/>
+				<img
+					src="/src/images/hero/webp/desktop.webp"
+					alt="ice cream"
+					class="hero-ice-cream"
+					width="456"
+					height="560"
+				/>
+			</picture>
+			<div class="hero-description">
+				<picture>
+					<source
+						srcset="
+							/src/images/hero/webp/lots-of-ice-cream-desctop.webp    1x,
+							/src/images/hero/webp/lots-of-ice-cream-desctop@2x.webp 2x
+						"
+						media="(min-width: 1200px)"
+						width="152"
+						height="152"
+					/>
+					<source
+						srcset="
+							/src/images/hero/webp/lots-of-ice-cream.webp    1x,
+							/src/images/hero/webp/lots-of-ice-cream@2x.webp 2x
+						"
+						media="(max-width:1199px)"
+						width="152"
+						height="152"
+					/>
+					<img
+						src="/src/images/hero/webp/lots-of-ice-cream-desctop.webp "
+						alt="lots of ice cream"
+						class="hero-lots-of-ice-cream"
+						width="255"
+						height="255"
+					/>
+				</picture>
+				<!-- ====== -->
+				<div class="holder">
+					<svg class="hero-arrow" width="40" height="16">
+						<use href="/src/images/sprite.svg#icon-arrow"></use>
+					</svg>
+					<p class="hero-info block">
+						Soft ice cream with a delicate taste, Fragrant invigorating drink.
+						Sweet drinks based on milk and ice cream,
+					</p>
+				</div>
+			</div>
+		</div>
+	</div>
+</header>
